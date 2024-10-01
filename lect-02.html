@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Variables</title>
+</head>
+<body>
+    <h1>Variables in JS</h1>
+    
+
+    <script>
+
+        // Declare Automatically
+         x = 3;
+         y = 2;
+         z = x + y;
+        console.log(z);
+
+        // using let/const (block scope and cannot be redeclared)
+
+        {
+            let name = 'Mahnoor';
+            console.log(name);
+        }
+        // console.log(name);
+
+
+        // using var (global scope and can be redeclared)
+
+        {
+            var name = 'Mahnoor';
+        }
+        console.log(name);
+
+        var x = 5;
+        {
+            var x = 3;
+        }
+        console.log(x); 
+
+
+    </script>
+
+</body>
+</html>
