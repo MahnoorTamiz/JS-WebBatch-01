@@ -8,39 +8,60 @@
 </head>
 
 <body>
-    <!-- <h1>Operators in JS</h1> -->
+    <h1>Operators in JS</h1>
 
-    <!-- 1. Arithmetic Operators (+.-,*,/,**,%,++,--) -->
+    <!--1. Arithmetic Operators (+.-,*,/,**,%,++,--) -->
     <!--2. Assignment Operators (+=, -= , /=, **=, %=)  -->
     <!--3. Comparison Operators (==, ===, !=, !===, >, <, >=, <=, ?) -->
-    <!-- 4. Logical Operators -->
+    <!--4. Logical Operators (&&, ||, ?) -->
 
 
     <script>
-         
-         let x = 25; 
-         let y = 5;
 
-        //  let z = x + y;
+        let x = 25;
+        let y = 5;
+
+        // let z = x + y;
         // let z = x - y;
         // let z = x * y;
         // let z = x / y;
         // let z = x ** y;
         let z = x % y;
         //  console.log(z)
-        //  console.log(++x);
-        //  console.log(++x);
-        //  console.log(--x);
-         console.log(x);
+
+        // pre increment
+        console.log(++x);
+
+        // post increment
+        console.log(x++);
+        console.log(x);
+
+        // pre decrement
+        console.log(--x);
+
+        // post decrement
+        console.log(x--);
 
         //  comparison operators (return T & F)
-        // === if one of the condition is not true then it will be false
 
-        let a = 4; 
+        let a = 4;
         let b = 0;
         let m = true;
         // console.log(a==b);
-        console.log(typeof(a))
+        // console.log(a===b);
+        console.log(typeof (a))
+
+
+        // if-else with logical operator
+        let num1 = 3;
+        let num2 = 3;
+
+        if (num1 != 3 || num2 == 3) {
+            console.log('true')
+        }
+        else {
+            console.log('false');
+        }
 
     </script>
 
