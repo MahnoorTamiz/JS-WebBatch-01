@@ -17,11 +17,25 @@
 
     <script>
 
+        let Fname = 'Mahnoor';
+        let Lname = 'Tamiz';
+
+        // syntax
+
+        if (Fname == 'Mahnoor' && Lname == 'Tamiz') {
+            console.log('Full name is correct');
+        }
+        else {
+            console.log('Full name is incorrect');
+        }
+
+        // else if ladder
+
         let x = 5;
         let y = 4;
 
         // if else statement
-        if (x!=5 && y==4) {
+        if (x != 5 && y == 4) {
             console.log('true');
         }
         else {
@@ -30,12 +44,10 @@
 
         let age = 16;
 
-        if(age >= 18)
-        {
-            console.log('true'); 
+        if (age >= 18) {
+            console.log('true');
         }
-        else
-        {
+        else {
             console.log('false');
         }
 
@@ -43,28 +55,57 @@
 
         let marks = 90;
 
-        if(marks >= 99)
-        {
+        if (marks >= 99) {
             console.log('Grade A');
-            
+
         }
-        else if (marks <= 80)
-        {
+        else if (marks <= 80) {
             console.log('Grade B');
         }
-        else if (marks <= 70)
-        {
+        else if (marks <= 70) {
             console.log('Grade C');
         }
 
-        else if (marks == 50)
-        {
+        else if (marks == 50) {
             console.log('Grade D')
         }
-        else
-        {
+        else {
             console.log('fail');
         }
+
+        // switch statement
+
+        let day = 'Sunday';
+
+        switch (day) {
+            // default:
+            // console.log('Happy weekend');
+            // break;
+
+            case 'Monday':
+                console.log('Its Monday');
+                break;
+
+            case 'Tuesday':
+                console.log('Its Tuesday');
+                break;
+
+            case 'Saturday':
+                console.log('weekend');
+                break;
+
+            // case 'Wednesday':
+            //     console.log('weekend');
+            //     break;
+
+            case 'Sunday':
+                console.log('weekend');
+                break;
+
+                // default:
+                // console.log('Happy weekend');
+        }
+
 
     </script>
 
