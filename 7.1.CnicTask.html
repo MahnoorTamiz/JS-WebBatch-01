@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <script>
+
+        let five_digit = '';
+        let seven_digit = '';
+        let one_digit = '';
+
+        for (let i = 0; i < 5; i++) {
+            five_digit += Math.floor(Math.random() * 10);
+        }
+
+        for (let i = 0; i<7; i++) {
+            seven_digit += Math.floor(Math.random() * 10);
+        }
+
+        one_digit += Math.floor(Math.random());
+
+        let cnic = five_digit + '-' + seven_digit + '-' + one_digit;
+
+        console.log(cnic);
+        
+
+
+    </script>
+</body>
+
+</html>
