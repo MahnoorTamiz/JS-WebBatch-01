@@ -96,7 +96,43 @@
         let replace_all = sent.replaceAll(/Cats/g, 'dogs');
         console.log(replace_all);
 
-        // split()
+        // split()...convert to array
+
+        let sentence = 'My | Javascript | course | is finished | !';
+        // let split = sentence.split();
+        // let split = sentence.split("|" , 2);
+        let split = sentence.split('|');
+        console.log(split);
+
+        // String search Methods
+
+        // indexOf()
+        let new_arr = "Hello from JS Lectures";
+        let index = new_arr.indexOf('Lectures');
+        console.log(index);
+
+        // search()....regular expressions 
+        let str_to_arr = "Hello from JS Lectures";
+        // let result = str_to_arr.search('JS');
+        let result = str_to_arr.search(/JS/);
+        console.log(result);
+
+        // includes()....T/F
+        let included = new_arr.includes('Hello');
+        // let included = new_arr.includes('Hellooo');
+        console.log(included);
+
+        // startsWith()
+        let starts = new_arr.startsWith('Lectures');
+        console.log(starts);
+
+        //endsWith()
+        let ends = new_arr.endsWith('Lectures');
+        console.log(starts);
+
+        
+
+
         
 
 
