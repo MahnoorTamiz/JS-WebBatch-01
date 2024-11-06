@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+
+        // 2. Array Find and Search Method
+
+        // Array delete
+
+        let new_arr = [1,2,3,4,5,6,7,8];
+        delete new_arr[6];
+        console.log(new_arr);
+
+        // find method
+        let res = new_arr.findLastIndex((value, index, array) => {
+            return value > 5;
+        })
+        console.log(res);
+
+
+        let fruit = ['orange', 'apple', 'mango', 'grapes'];
+        // delete new_arr[2];
+        delete fruit[1];
+        // console.log(fruit);
+
+        // multi-dimensonal array
+        let multi_arr = [[1,2],[3,4],[5,6],[7,8],[9.10]];
+        // console.log(multi_arr.flat());
+        // console.log(multi_arr);
+
+        let arr = ['red', 'green', 'blue', 'pink', 'orange', 'yellow', 'pink'];
+        let number_arr = [21, 54, 2, 0, 44, 90, 21, 97];
+
+        // console.log(arr.indexOf('green'));
+
+        // For multiple elements
+        // console.log(arr.indexOf('pink'));
+
+        // no element
+        // console.log(arr.indexOf('purple'));
+
+        // icnludes...T/F
+        // console.log(arr.includes('blue'));
+
+        // 3. Array Sort Methods
+        
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>String Methods in JS</h1>
+    
+
+
+    <script>
+
+        // let arr = [22,23,43,5,56,640];
+        // let res = arr.length;
+        // console.log(res);
+
+        let string = 'Hello World!';
+
+        // Length
+        let len = string.length;
+        console.log(len);
+
+        // charAt()
+        let char = string.charAt(1);
+        console.log(char);
+
+        // at()....support negative index 
+        let at_method = string.at(-1);
+        console.log(at_method);
+
+        // slice() / substring()
+        let slice = string.slice(0,5);
+        let res = string.substring(0,5)
+        // let slice = string.slice(6,12);
+        // let slice = string.slice(4);
+        console.log(slice);
+        console.log(res);
+
+        // substr(1st pos, length)
+        // let substr = string.substr(0,5);
+        let sub = string.substr(6,6);
+        console.log(sub);
+
+        // touppercase()
+        let upper_case = string.toUpperCase();
+        console.log(upper_case);
+
+        // tolowercase()
+        let lower_case = string.toLowerCase();
+        console.log(lower_case);
+
+        // concat()
+        let fname = 'Mahnoor';
+        let lname = 'Tamiz';
+        let rslt = fname.concat(" " + lname);
+        console.log(rslt);
+
+        // trim()
+        let trim = string.trim();
+        console.log(trim);
+        // console.log(string);
+
+        // trimStart()
+        let start = string.trimStart();
+        console.log(start);
+
+        // trimEnd()
+        let end = string.trimEnd();
+        console.log(end);
+
+        // let text = 'Hello World';
+        let text = 5;
+
+        // padStart
+        let num = text.toString();
+        // console.log(num);
+        let pad_start = num.padEnd(2,'H');
+        console.log(pad_start);
+
+        // let pad_start = text.padStart(14,'W');
+        // console.log(pad_start);
+
+        let string_two = 'JS Lecture'
+        let repeat = string_two.repeat(3);
+        console.log(repeat);
+
+        // replace()
+        let replace = string_two.replace('JS Lecture', 'React Lecture');
+        console.log(replace);
+
+        let sent = 'I love cats. Cats are very easy to love. Cats are very popular';
+        // replaceAll()
+        let replace_all = sent.replaceAll(/Cats/g, 'dogs');
+        console.log(replace_all);
+
+        // split()
+        
+
+
+
+
+
+    </script>
+</body>
+</html>
